@@ -96,7 +96,7 @@
     function showModal(bird) {
       currentBird = bird;
       document.getElementById('modal-name').innerText = bird.name;
-      document.getElementById('modal-latin').innerText = bird.latin;
+      document.getElementById('modal-latin').innerText = `(${bird.latin})`; // Add brackets here
       document.getElementById('modal-notes').innerText = bird.notes;
       document.getElementById('modal-audio').src = bird.audio;
       document.getElementById('modal').style.display = 'flex';

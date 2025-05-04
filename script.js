@@ -3,7 +3,7 @@
     let currentBird = null;
 
     let birds = [
-      { name: "Blue Tit",
+      { name: "Blue Tit / Great Tit",
        count: 16, latin: "Cyanistes caeruleus", audio: "https://xeno-canto.org/sounds/uploaded/SWJCTHRKBD/XC798268-Parus_caeruleus_early_morning_song.mp3",
        notes: "Always fluttering around in the city / in sets of two or more / collecting twigs in spring to build their nests / two distinct types of whistles, both shrill and low", image: "img/bluetit.png" 
       },
@@ -74,15 +74,11 @@
       
       { name: "Three-toed Woodpecker",
        count: 1, latin: "Picoides tridactylus", audio: "https://xeno-canto.org/sounds/uploaded/GDWZKWPIBJ/XC794865-Three-toed_Woodpecker_call.mp3",
-       notes: "the more common of the woodpeckers", image: "img/toedwoodie.png"
+       notes: "the more common of the woodpeckers", image: "https://images.unsplash.com/photo-1742849249251-f49a92ad5aef?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       { name: "Hooded Crow",
        count: 4, latin: "Corvus cornix", audio: "https://xeno-canto.org/sounds/uploaded/GDWZKWPIBJ/XC794865-Three-toed_Woodpecker_call.mp3",
        notes: "As large as a puppy / clever as crows are / walks like an old man?", image: "img/hooded.png"
-      },
-      { name: "Great tit",
-       count: 1, latin: "Picoides tridactylus", audio: "https://xeno-canto.org/sounds/uploaded/GDWZKWPIBJ/XC794865-Three-toed_Woodpecker_call.mp3",
-       notes: "around", image: "img/greattit.png"
       }
     
     ];

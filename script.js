@@ -44,9 +44,9 @@
        count: 2, latin: "Coccothraustes coccothraustes", audio: "sounds/hawfinch.mp3",
        notes: "rare and bulky finch", image: "img/hawfinch.png"
       },
-        { name: "European Gold Finch",
-       count: 2, latin: "Carduelis carduelis", audio: "sounds/goldfinch.mp3",
-       notes: "-", image: "img/goldfinch.png"
+        { name: "Common Redpoll",
+       count: 2, latin: "Carduelis carduelis", audio: "sounds/redpoll.mp3",
+       notes: "(could have been a European Gold Finch, need to verify)", image: "img/redpoll.png"
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.mp3",

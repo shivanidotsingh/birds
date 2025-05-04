@@ -119,23 +119,57 @@
       document.getElementById('modal').style.display = 'none';
     }
 
-    function renderBirdCircles() {
-      const container = document.getElementById('bird-container');
-      container.innerHTML = '';
-      const maxCount = Math.max(...birds.map(b => b.count));
-      birds.forEach(bird => {
-        const circle = document.createElement('div');
-        circle.className = 'bird-circle';
-        const size = 50 + (bird.count / maxCount) * 150;
-        circle.style.width = `${size}px`;
-        circle.style.height = `${size}px`;
-        circle.style.left = `${Math.random() * (window.innerWidth - size)}px`;
-        circle.style.top = `${Math.random() * (window.innerHeight - size - 80)}px`;
-        circle.onclick = () => showModal(bird);
-        circle.innerHTML = `<img src="${bird.image}" alt="${bird.name}" />`;
-        container.appendChild(circle);
-      });
-    }
+   function renderBirdCircles() {
+  const container = document.getElementById('bird-container');
+  container.innerHTML = '';
+  const maxCount = Math.max(...birds.map(b => b.count));
+  birds.forEach(bird => {
+    const circle = document.createElement('div');
+    circle.className = 'bird-circle';
+    const size = 50 + (bird.count / maxCount) * 150;
+    circle.style.width = `${size}px`;
+    circle.style.height = `${size}px`;
+    circle.style.left = `${Math.random() * (window.innerWidth - size)}px`;
+    circle.style.top = `${Math.random() * (window.innerHeight - size - 80)}px`;
+    circle.onclick = () => showModal(bird);
+    circle.innerHTML = `<img src="${bird.image}" alt="${bird.name}" />`;
+
+    // Add drag event listeners
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    circle.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      offsetX = e.clientX - circle.offsetLeft;
+      offsetY = e.clientY - circle.offsetTop;
+      circle.style.cursor = 'grabbing'; // Change cursor
+      e.preventDefault(); // Prevent text selection
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      const x = e.clientX - offsetX;
+      const y = e.clientY - offsetY;
+
+      // Keep the circle within the bounds of the container
+      const containerRect = container.getBoundingClientRect();
+      const circleRect = circle.getBoundingClientRect();
+
+      const maxX = containerRect.width - circleRect.width;
+      const maxY = containerRect.height - circleRect.height;
+
+      circle.style.left = `${Math.min(Math.max(x, 0), maxX)}px`;
+      circle.style.top = `${Math.min(Math.max(y, 0), maxY)}px`;
+    });
+
+    document.addEventListener('mouseup', () => {
+      isDragging = false;
+      circle.style.cursor = 'pointer'; // Reset cursor
+    });
+
+    container.appendChild(circle);
+  });
+}
 
     loadCounts();
     renderBirdCircles();

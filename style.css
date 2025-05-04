@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
     body {
       margin: 0;
@@ -88,10 +87,10 @@
     }
 #modal-name {
   display: inline-block;
+  margin-right: 10px;
 }
 #modal-latin {
   display: inline-block; /* Essential: Allows inline flow */
-  font-style: italic;
   font-weight: normal;
   color: #D3D3D3;
   margin-bottom: 0;     /* Important: Reset default bottom margin */
@@ -99,10 +98,8 @@
 }    
 
     #modal-notes {
-        font-family: "Playpen Sans", cursive;
-        font-weight: 100;
         margin-top: 1rem;
-        text-transform: uppercase;
+        font-size: 1em;
     }
     audio {
       width: 100%;

@@ -52,8 +52,8 @@
        count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",
        notes: "Always trotting around in sets of two or more / low flying / bulky", image: "img/woodpigeon.png"
       },
-        { name: "Sparrow",
-       count: 4, latin: "Passer domesticus", audio: "sounds/sparrow.mp3",
+        { name: "Eurasian Tree Sparrow",
+       count: 4, latin: "Passer montanus", audio: "sounds/sparrow.mp3",
        notes: "Chirpy and common.", image: "img/sparrow.png" 
       },
         { name: "Hooded Crow",

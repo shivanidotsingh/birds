@@ -8,9 +8,9 @@
     }
     h1 {
       text-align: left;
+      text-size: 0.5em;
       padding: 1rem;
-      background: #FF4552;
-      color: white;
+      color: black;
       margin: 0;
     }
     #bird-container {

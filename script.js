@@ -5,77 +5,77 @@
     let birds = [
       { name: "Blue Tit / Great Tit",
        count: 16, latin: "Cyanistes caeruleus", audio: "sounds/bluetit.mp3",
-       notes: "Always fluttering around in the city / in sets of two or more / collecting twigs in spring to build their nests / two distinct types of whistles, both shrill and low", image: "img/bluetit.png" 
+       notes: "two distinct types of whistles - shrill and low", image: "img/bluetit.png" 
       },
       { name: "Blackbird",
        count: 10, latin: "Turdus merula", audio: "sounds/blackbird.mp3",
-       notes: "Female is browner / usually seen in pairs / national bird of stockholm / sings a lot", image: "img/blackbird.png" 
+       notes: "female is brownish / national bird of stockholm / melodious", image: "img/blackbird.png" 
       },
       { name: "Fieldfare",
        count: 7, latin: "Turdus pilaris", audio: "sounds/fieldfare.mp3",
-       notes: "terrible mechanical sounding shriek / inelegant flight / angry-looking / seen in sets of two or more / rummaging around in the bushes / sometimes bullying other birds", image: "img/fieldfare.png" 
+       notes: "mechanical shriek / angry-looking / seen in sets of two or more / rummages around in the bushes / sometimes seen bullying other birds", image: "img/fieldfare.png" 
       },
       { name: "Eurasian Magpie",
        count: 12, latin: "Pica pica", audio: "sounds/magpie.mp3",
-       notes: "Large bullies.", image: "img/magpie.png" 
+       notes: "large bullies", image: "img/magpie.png" 
       },
       { name: "Seagull",
        count: 9, latin: "Larinae", audio: "sounds/gull.mp3",
-       notes: "Large bullies / higher flying", image: "img/seagull.png" 
+       notes: "higher flying large bullies", image: "img/seagull.png" 
       },
       { name: "Starling",
        count: 4, latin: "Sturnus vulgaris", audio: "sounds/starling.mp3",
-       notes: "Often mistaken for the more commonly seen blackbird / unmissable irridiscent feathers / polite?", image: "img/starling.png" 
+       notes: "can be mistaken for the more commonly seen blackbird / unmissable irridiscent feathers", image: "img/starling.png" 
       },
       { name: "Nuthatch",
        count: 2, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
-       notes: "Creeps down trees headfirst.", image: "img/nuthatch.png" 
+       notes: "creeps down trees headfirst", image: "img/nuthatch.png" 
       },
         
       { name: "Eurasian Jay",
        count: 2, latin: "Garrulus glandarius", audio: "sounds/jay.mp3",
-       notes: "Colorful and large / often in pairs / keep to themselves", image: "img/jay.png" 
+       notes: "colorful and large / often in pairs / loud", image: "img/jay.png" 
       },
       { name: "Greenfinch",
        count: 2, latin: "Chloris chloris", audio: "sounds/greenfinch.mp3",
-       notes: "Shy / prefers the higher branches / identifiable whistle", image: "img/greenfinch.png"
+       notes: "shy / prefers the higher branches / distinct whistle", image: "img/greenfinch.png"
       },
       { name: "Hawfinch",
        count: 2, latin: "Coccothraustes coccothraustes", audio: "sounds/hawfinch.mp3",
-       notes: "Rare and bulky finch.", image: "img/hawfinch.png"
+       notes: "rare and bulky finch", image: "img/hawfinch.png"
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.mp3",
-       notes: "Heard singing early morning / Seen only once so far / cute", image: "img/robin.png"
+       notes: "heard singing early morning / spotted only once so far", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
        count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",
-       notes: "Always trotting around in sets of two or more / low flying / bulky", image: "img/woodpigeon.png"
+       notes: "urban regular / low flying / prefers to walk / bulky", image: "img/woodpigeon.png"
       },
         { name: "Eurasian Tree Sparrow",
        count: 4, latin: "Passer montanus", audio: "sounds/sparrow.mp3",
-       notes: "Chirpy and common.", image: "img/sparrow.png" 
+       notes: "chirpy and common", image: "img/sparrow.png" 
       },
         { name: "Hooded Crow",
        count: 4, latin: "Corvus cornix", audio: "sounds/crow.mp3",
-       notes: "As large as a puppy / clever as crows are / walks like an old man?", image: "img/hooded.png"
+       notes: "bulky / clever / prefers to walk", image: "img/hooded.png"
       },
         { name: "White Wagtail",
        count: 4, latin: "Motacilla alba", audio: "sounds/wagtail.mp3",
-       notes: "Like an animated character with it's swiftly moving legs / petite / unmissable", image: "img/wagtail.png"
+       notes: "animated, swiftly moving legs / petite, demure / unmissable", image: "img/wagtail.png"
       },
         
       { name: "European Green Woodpecker",
        count: 1, latin: "Picus viridis", audio: "sounds/greenwoodie.mp3",
-       notes: "Distinctive laughing call.", image: "img/greenwoodie.png"
+       notes: "distinct laughing call", image: "img/greenwoodie.png"
       },
       { name: "Great Spotted Woodpecker",
        count: 1, latin: "Dendrocopos major", audio: "sounds/spottedwoodie.mp3",
-       notes: "Common but shy.", image: "img/spottedwoodie.png"
+       notes: "shy / spotted once so far / textbook woodpecker", image: "img/spottedwoodie.png"
       },
       { name: "Three-toed Woodpecker",
        count: 1, latin: "Picoides tridactylus", audio: "sounds/toedwoodie.mp3",
-       notes: "the more common of the woodpeckers", image: "https://images.unsplash.com/photo-1742849249251-f49a92ad5aef?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+       notes: "more common woodpecker / camouflages easily", image: "https://images.unsplash.com/photo-1742849249251-f49a92ad5aef?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ];
 

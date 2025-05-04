@@ -13,7 +13,7 @@
       },
       { name: "Fieldfare",
        count: 7, latin: "Turdus pilaris", audio: "https://xeno-canto.org/sounds/uploaded/UTWJHDYIUY/XC773880-Fieldfare_flight_calls_Norway.mp3",
-       notes: "terrible mechanical sounding shriek / inelegant flight / angry-looking / seen in sets of two or more / rummaging around in the bushes / sometimes bullying other birds", image: "/img/fieldfare.png" 
+       notes: "terrible mechanical sounding shriek / inelegant flight / angry-looking / seen in sets of two or more / rummaging around in the bushes / sometimes bullying other birds", image: "img/fieldfare.png" 
       },
       { name: "Eurasian Magpie",
        count: 12, latin: "Pica pica", audio: "https://xeno-canto.org/sounds/uploaded/GKCYLPQAKO/XC794867-Magpie%20calls%202.mp3",

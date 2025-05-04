@@ -5,11 +5,11 @@
     let birds = [
       { name: "Blue Tit",
        count: 16, latin: "Cyanistes caeruleus", audio: "https://xeno-canto.org/sounds/uploaded/SWJCTHRKBD/XC798268-Parus_caeruleus_early_morning_song.mp3",
-       notes: "Always fluttering around in the city / in sets of two or more / collecting twigs in spring to build their nests / two distinct types of whistles, both shrill and low", image: "https://cdn.cosmos.so/77635670-7d7c-433a-986b-90c6667f9f3d?format=webp&w=1168" 
+       notes: "Always fluttering around in the city / in sets of two or more / collecting twigs in spring to build their nests / two distinct types of whistles, both shrill and low", image: "img/bluetit.png" 
       },
       { name: "Blackbird",
        count: 10, latin: "Turdus merula", audio: "https://xeno-canto.org/sounds/uploaded/OOECWDJQLV/XC812730-Blackbird%20song%20suburban.mp3",
-       notes: "Female is browner / usually seen in pairs / national bird of stockholm / sings a lot", image: "https://cdn.cosmos.so/0520efdf-ce15-43f5-933b-2122bb168bd6?format=webp&w=554" 
+       notes: "Female is browner / usually seen in pairs / national bird of stockholm / sings a lot", image: "img/blackbird.png" 
       },
       { name: "Fieldfare",
        count: 7, latin: "Turdus pilaris", audio: "https://xeno-canto.org/sounds/uploaded/UTWJHDYIUY/XC773880-Fieldfare_flight_calls_Norway.mp3",
@@ -17,68 +17,72 @@
       },
       { name: "Eurasian Magpie",
        count: 12, latin: "Pica pica", audio: "https://xeno-canto.org/sounds/uploaded/GKCYLPQAKO/XC794867-Magpie%20calls%202.mp3",
-       notes: "Large bullies.", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/258465881/1200" 
+       notes: "Large bullies.", image: "img/magpie.png" 
       },
       { name: "Seagull",
-       count: 9, latin: "Larinae", audio: "https://xeno-canto.org/sounds/uploaded/GKCYLPQAKO/XC794867-Magpie%20calls%202.mp3",
-       notes: "Large bullies / higher flying", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/258465881/1200" 
+       count: 9, latin: "Larinae", audio: "https://xeno-canto.org/sounds/uploaded/GKCYLPQAKO/XC794867-Seagull%20calls%202.mp3",
+       notes: "Large bullies / higher flying", image: "img/seagull.png" 
       },
       { name: "Starling",
        count: 4, latin: "Sturnus vulgaris", audio: "https://xeno-canto.org/sounds/uploaded/HMQCNXUAYR/XC781617-Starling%2C%20Sturnus%20vulgaris%2C%20singing.mp3",
-       notes: "Often mistaken for the more commonly seen blackbird / unmissable irridiscent feathers / polite?", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/309156211/1200" 
+       notes: "Often mistaken for the more commonly seen blackbird / unmissable irridiscent feathers / polite?", image: "img/starling.png" 
       },
-      { name: "Sparrow",
-       count: 4, latin: "Passer domesticus", audio: "https://xeno-canto.org/sounds/uploaded/GFYHDMLCSF/XC781616-House%20Sparrow%2C%20Passer%20domesticus.mp3",
-       notes: "Chirpy and common.", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/312481191/1200" 
-      },
+      
      
       { name: "Nuthatch",
        count: 2, latin: "Sitta europaea", audio: "https://xeno-canto.org/sounds/uploaded/BDYHDUIAEX/XC798264-Eurasian_Nuthatch_calls.mp3",
-       notes: "Creeps down trees headfirst.", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/246325271/1200" 
+       notes: "Creeps down trees headfirst.", image: "img/nuthatch.png" 
       },
       { name: "Eurasian Jay",
        count: 2, latin: "Garrulus glandarius", audio: "https://xeno-canto.org/sounds/uploaded/KZMPYAVQOL/XC773321-Eurasian_Jay_calling.mp3",
-       notes: "Colorful and large / often in pairs / keep to themselves", image: "https://cdn.cosmos.so/3d0b3f0e-a806-49e2-9b79-e920f1664776?format=webp&w=1168" 
+       notes: "Colorful and large / often in pairs / keep to themselves", image: "img/jay.png" 
       },
       { name: "Greenfinch",
        count: 2, latin: "Chloris chloris", audio: "https://xeno-canto.org/sounds/uploaded/UXCYFHZGDR/XC794866-Greenfinch%20song.mp3",
-       notes: "Shy / prefers the higher branches / identifiable whistle", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/277825331/1200"
+       notes: "Shy / prefers the higher branches / identifiable whistle", image: "img/greenfinch.png"
       },
       { name: "Hawfinch",
        count: 2, latin: "Coccothraustes coccothraustes", audio: "https://xeno-canto.org/sounds/uploaded/PUKHGNCKUG/XC773879-Hawfinch_Norway.mp3",
-       notes: "Rare and bulky finch.", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/302264861/1200"
+       notes: "Rare and bulky finch.", image: "img/hawfinch.png"
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "https://xeno-canto.org/sounds/uploaded/UWZLJEGNKR/XC781619-European_Robin_song.mp3",
-       notes: "Heard singing early morning / Seen only once so far / cute", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/302264921/1200"
+       notes: "Heard singing early morning / Seen only once so far / cute", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
        count: 4, latin: "Columba palumbus", audio: "https://xeno-canto.org/sounds/uploaded/TTCEKFEUHH/XC781615-Woodpigeon_call.mp3",
-       notes: "Always trotting around in sets of two or more / low flying / bulky", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/246325241/1200"
+       notes: "Always trotting around in sets of two or more / low flying / bulky", image: "img/woodpigeon.png"
       },
+        { name: "Sparrow",
+       count: 4, latin: "Passer domesticus", audio: "https://xeno-canto.org/sounds/uploaded/GFYHDMLCSF/XC781616-House%20Sparrow%2C%20Passer%20domesticus.mp3",
+       notes: "Chirpy and common.", image: "img/sparrow.png" 
+      },
+        
+        { name: "White Wagtail",
+       count: 4, latin: "Motacilla alba", audio: "https://xeno-canto.org/sounds/uploaded/YVQCHNRYHD/XC781620-White%20Wagtail.mp3",
+       notes: "Like an animated character with it's swiftly moving legs / petite / unmissable", image: "img/wagtail.png"
+      },
+        
       { name: "European Green Woodpecker",
        count: 1, latin: "Picus viridis", audio: "https://xeno-canto.org/sounds/uploaded/SZPGWNGTLI/XC798261-Eur_Green_Woodpecker.mp3",
-       notes: "Distinctive laughing call.", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/270373961/1200"
+       notes: "Distinctive laughing call.", image: "img/greenwoodie.png"
       },
       { name: "Great Spotted Woodpecker",
        count: 1, latin: "Dendrocopos major", audio: "https://xeno-canto.org/sounds/uploaded/WHCKMPAKPT/XC794864-Great_Spotted_Woodpecker.mp3",
-       notes: "Common but shy.", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/246325171/1200"
+       notes: "Common but shy.", image: "img/spottedwoodie.png"
       },
-      { name: "White Wagtail",
-       count: 4, latin: "Motacilla alba", audio: "https://xeno-canto.org/sounds/uploaded/YVQCHNRYHD/XC781620-White%20Wagtail.mp3",
-       notes: "Like an animated character with it's swiftly moving legs / petite / unmissable", image: "https://cdn.cosmos.so/0520efdf-ce15-43f5-933b-2122bb168bd6?format=webp&w=1168"
-      },
+      
       { name: "Three-toed Woodpecker",
        count: 1, latin: "Picoides tridactylus", audio: "https://xeno-canto.org/sounds/uploaded/GDWZKWPIBJ/XC794865-Three-toed_Woodpecker_call.mp3",
-       notes: "the more common of the woodpeckers", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/246325221/1200"
+       notes: "the more common of the woodpeckers", image: "img/toedwoodie.png"
       },
       { name: "Hooded Crow",
        count: 4, latin: "Corvus cornix", audio: "https://xeno-canto.org/sounds/uploaded/GDWZKWPIBJ/XC794865-Three-toed_Woodpecker_call.mp3",
-       notes: "As large as a puppy / clever as crows are / walks like an old man?", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/246325221/1200"
+       notes: "As large as a puppy / clever as crows are / walks like an old man?", image: "img/hooded.png"
       },
       { name: "Great tit",
        count: 1, latin: "Picoides tridactylus", audio: "https://xeno-canto.org/sounds/uploaded/GDWZKWPIBJ/XC794865-Three-toed_Woodpecker_call.mp3",
-       notes: "around", image: "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/246325221/1200"
+       notes: "around", image: "img/greattit.png"
       }
     
     ];

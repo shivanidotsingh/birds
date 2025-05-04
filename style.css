@@ -1,38 +1,92 @@
 
     body {
-      font-family: Helvetica, sans-serif;
       margin: 0;
-      padding: 1rem;
-      background-color: #f4f4f9;
+      padding: 0;
+      font-family: Helvetica, sans-serif;
+      overflow: hidden;
+      background: #EFE8D8;
     }
     h1 {
-      text-align: center;
-      margin-bottom: 1rem;
-    }
-    #sort {
-      margin-bottom: 1rem;
-      padding: 0.5rem;
-      font-size: 1rem;
+      text-align: left;
+      padding: 1rem;
+      background: #FF4552;
+      color: white;
+      margin: 0;
     }
     #bird-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
+      position: relative;
+      width: 100vw;
+      height: calc(100vh - 80px);
+      overflow: hidden;
     }
-    .bird-card {
-      background-color: white;
-      border-radius: 10px;
-      padding: 1rem;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    .bird-circle {
+      position: absolute;
+      border-radius: 50%;
+      background: #fff;
+      border: 1px solid #FF4552;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      overflow: hidden;
       transition: transform 0.2s;
     }
-    .bird-card:hover {
-      transform: scale(1.02);
+    .bird-circle img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
     }
-    .bird-card h2 {
+    .bird-circle:hover {
+      transform: scale(1.05);
+      z-index: 10;
+    }
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+    .modal-content {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+      position: relative;
+    }
+    .modal h2 {
       margin-top: 0;
+    }
+    .modal .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #0077b6;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
+    .increment-button {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 1rem;
+      background: none;
+      border: none;
+      cursor: pointer;
     }
     audio {
       width: 100%;
-      margin-top: 0.5rem;
+      margin-top: 1rem;
     }

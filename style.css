@@ -13,6 +13,7 @@
       padding: 1rem;
       color: black;
       margin: 0;
+      text-decoration: none;
     }
     #bird-container {
       position: relative;
@@ -85,10 +86,13 @@
       border: none;
       cursor: pointer;
     }
-
+#modal-name {
+  display: inline-block;
+}
 #modal-latin {
   display: inline-block; /* Essential: Allows inline flow */
   font-style: italic;
+  font-weight: normal;
   color: #D3D3D3;
   margin-bottom: 0;     /* Important: Reset default bottom margin */
   vertical-align: top;   /* Align to the top of the line */
@@ -98,7 +102,7 @@
         font-family: "Edu VIC WA NT Beginner", cursive;
         font-weight: 400;
         margin-top: 1rem;
-        text-transform: lowercase;
+        text-transform: uppercase;
     }
     audio {
       width: 100%;

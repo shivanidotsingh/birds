@@ -25,7 +25,7 @@
       },
       { name: "Starling",
        count: 4, latin: "Sturnus vulgaris", audio: "sounds/starling.mp3",
-       notes: "can be mistaken for the more commonly seen blackbird / unmissable irridiscent feathers", image: "img/starling.png" 
+       notes: "irridiscent / was common in san fransisco too", image: "img/starling.png" 
       },
       { name: "Nuthatch",
        count: 2, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
@@ -46,11 +46,11 @@
       },
         { name: "Common Redpoll",
        count: 2, latin: "Carduelis carduelis", audio: "sounds/redpoll.mp3",
-       notes: "(could have been a European Gold Finch, need to verify)", image: "img/redpoll.png"
+       notes: "could have been a European Gold Finch, need to verify", image: "img/redpoll.png"
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.mp3",
-       notes: "sings early morning / (could have been a Red-breasted Flycatcher)", image: "img/robin.png"
+       notes: "sings early morning / could have been a red-breasted flycatcher", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
        count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",

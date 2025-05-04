@@ -3,9 +3,9 @@
     let currentBird = null;
 
     let birds = [
-      { name: "Blue Tit / Great Tit",
+      { name: "Blue Tit",
        count: 16, latin: "Cyanistes caeruleus", audio: "sounds/bluetit.mp3",
-       notes: "two distinct types of whistles - shrill and low", image: "img/bluetit.png" 
+       notes: "two distinct types of whistles - shrill and low / entry also includes count of great tits (Parus major)", image: "img/bluetit.png" 
       },
       { name: "Blackbird",
        count: 10, latin: "Turdus merula", audio: "sounds/blackbird.mp3",
@@ -46,7 +46,7 @@
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.mp3",
-       notes: "heard singing early morning / spotted only once so far", image: "img/robin.png"
+       notes: "sings early morning / spotted once so far", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
        count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",

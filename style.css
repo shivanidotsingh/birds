@@ -84,7 +84,7 @@
       border: none;
       cursor: pointer;
     }
-    .modal-notes {
+    #modal-notes {
         font-color: #808080;
         margin-top: 1rem;
     }

@@ -50,7 +50,7 @@
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.mp3",
-       notes: "sings early morning / spotted once so far", image: "img/robin.png"
+       notes: "sings early morning / (could have been a Red-breasted Flycatcher)", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
        count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",

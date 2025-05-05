@@ -13,7 +13,7 @@
       },
       { name: "Fieldfare",
        count: 7, latin: "Turdus pilaris", audio: "sounds/fieldfare.mp3",
-       notes: "mechanical shriek / angry-looking / seen in sets of two or more / rummages around in the bushes / sometimes seen bullying other birds", image: "img/fieldfare.png" 
+       notes: "mechanical shriek / angry-looking / sometimes seen bullying other birds", image: "img/fieldfare.png" 
       },
       { name: "Eurasian Magpie",
        count: 12, latin: "Pica pica", audio: "sounds/magpie.mp3",
@@ -49,8 +49,8 @@
        notes: "could have been a Common Redpoll?", image: "img/goldfinch.png"
       },
       { name: "European Robin",
-       count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.mp3",
-       notes: "sings early morning / looks like a red-breasted flycatcher", image: "img/robin.png"
+       count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.wav",
+       notes: "looks like a red-breasted flycatcher", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
        count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",

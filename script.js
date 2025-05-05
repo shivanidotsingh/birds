@@ -66,7 +66,7 @@
       },
         { name: "White Wagtail",
        count: 4, latin: "Motacilla alba", audio: "sounds/wagtail.mp3",
-       notes: "comically swift walker / petite, demure", image: "img/wagtail.png"
+       notes: "comically swift walker", image: "img/wagtail.png"
       },
         
       { name: "European Green Woodpecker",

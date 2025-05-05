@@ -58,7 +58,7 @@
       },
         { name: "Eurasian Tree Sparrow",
        count: 4, latin: "Passer montanus", audio: "sounds/sparrow.mp3",
-       notes: "chirpy and common", image: "img/sparrow.png" 
+       notes: "may have been a house sparrow", image: "img/sparrow.png" 
       },
         { name: "Hooded Crow",
        count: 4, latin: "Corvus cornix", audio: "sounds/crow.mp3",

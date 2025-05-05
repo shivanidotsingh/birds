@@ -45,8 +45,8 @@
        notes: "rare and bulky finch", image: "img/hawfinch.png"
       },
         { name: "Goldfinch",
-       count: 2, latin: "Carduelis carduelis", audio: "sounds/goldfinch.mp3",
-       notes: "could have been a Common Redpoll?", image: "img/goldfinch.png"
+       count: 3, latin: "Carduelis carduelis", audio: "sounds/goldfinch.mp3",
+       notes: "colorful", image: "img/goldfinch.png"
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.wav",

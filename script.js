@@ -44,13 +44,13 @@
        count: 2, latin: "Coccothraustes coccothraustes", audio: "sounds/hawfinch.mp3",
        notes: "rare and bulky finch", image: "img/hawfinch.png"
       },
-        { name: "Common Redpoll",
-       count: 2, latin: "Carduelis carduelis", audio: "sounds/redpoll.mp3",
-       notes: "could have been a European Gold Finch, need to verify", image: "img/redpoll.png"
+        { name: "Goldfinch",
+       count: 2, latin: "Carduelis carduelis", audio: "sounds/goldfinch.mp3",
+       notes: "could have been a Common Redpoll?", image: "img/goldfinch.png"
       },
       { name: "European Robin",
        count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.mp3",
-       notes: "sings early morning / could have been a red-breasted flycatcher", image: "img/robin.png"
+       notes: "sings early morning / looks like a red-breasted flycatcher", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
        count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",
@@ -66,7 +66,7 @@
       },
         { name: "White Wagtail",
        count: 4, latin: "Motacilla alba", audio: "sounds/wagtail.mp3",
-       notes: "animated, swiftly moving legs / petite, demure / unmissable", image: "img/wagtail.png"
+       notes: "comically swift walker / petite, demure", image: "img/wagtail.png"
       },
         
       { name: "European Green Woodpecker",

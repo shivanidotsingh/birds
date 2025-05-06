@@ -55,14 +55,16 @@
   transition: opacity 0.2s;
 }
 
-.bird-circle:hover .tooltip {
-  opacity: 1;
-}
+    .bird-circle:hover .tooltip {
+      opacity: 1;
+    }
 
+    /*
     .bird-circle:hover {
       transform: scale(1.05);
       z-index: 10;
-    }
+    }*/
+
     .modal {
       position: fixed;
       top: 0;

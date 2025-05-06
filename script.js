@@ -135,6 +135,12 @@
         circle.innerHTML = `<img src="${bird.image}" alt="${bird.name}" />`;
         container.appendChild(circle);
       });
+
+  circle.innerHTML = `
+  <img src="${bird.image}" alt="${bird.name}" />
+  <span class="tooltip">${bird.name}</span>
+`;
+
     }
 
     loadCounts();

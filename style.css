@@ -62,12 +62,10 @@
 .bird-circle:hover .tooltip {
   opacity: 1;
 }
-
-  .bird-circle:hover {
-      opacity: 1;
-      transform: scale(1.05);
-      z-index: 50;
-    }
+.bird-circle:hover {
+    transform: scale(1.05);
+    z-index: 50;
+}
 
 /* Tiny notch (triangle) */
 .tooltip::after {

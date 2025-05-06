@@ -55,13 +55,19 @@
   pointer-events: none;
   transition: opacity 0.2s;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  z-index: 10;
+  z-index: 50;
 }
 
 /* Show the tooltip on hover */
-.bird-circle:hover .tooltip {
+.tooltip {
   opacity: 1;
 }
+
+  .bird-circle:hover {
+      opacity: 1;
+      transform: scale(1.05);
+      z-index: 50;
+    }
 
 /* Tiny notch (triangle) */
 .tooltip::after {
@@ -74,12 +80,6 @@
   border-style: solid;
   border-color: white transparent transparent transparent;
 }
-
-    /*
-    .bird-circle:hover {
-      transform: scale(1.05);
-      z-index: 10;
-    }*/
 
     .modal {
       position: fixed;

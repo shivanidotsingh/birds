@@ -59,7 +59,7 @@
 }
 
 /* Show the tooltip on hover */
-.tooltip {
+.bird-circle:hover .tooltip {
   opacity: 1;
 }
 

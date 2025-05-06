@@ -123,6 +123,7 @@
       const container = document.getElementById('bird-container');
       container.innerHTML = '';
       const maxCount = Math.max(...birds.map(b => b.count));
+     
       birds.forEach(bird => {
         const circle = document.createElement('div');
         circle.className = 'bird-circle';
@@ -132,14 +133,9 @@
         circle.style.left = `${Math.random() * (window.innerWidth - size)}px`;
         circle.style.top = `${Math.random() * (window.innerHeight - size - 80)}px`;
         circle.onclick = () => showModal(bird);
-        circle.innerHTML = `<img src="${bird.image}" alt="${bird.name}" />`;
+        circle.innerHTML = `<img src="${bird.image}" alt="${bird.name}" /><span class="tooltip">${bird.name}</span>`;
         container.appendChild(circle);
       });
-
-  circle.innerHTML = `
-  <img src="${bird.image}" alt="${bird.name}" />
-  <span class="tooltip">${bird.name}</span>
-`;
 
     }
 

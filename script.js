@@ -13,7 +13,7 @@
       },
       { name: "Fieldfare",
        count: 7, latin: "Turdus pilaris", audio: "sounds/fieldfare.mp3",
-       notes: "mechanical shriek / angry-looking / sometimes seen bullying other birds", image: "img/fieldfare.png" 
+       notes: "mechanical sounding / angry-looking / common", image: "img/fieldfare.png" 
       },
       { name: "Eurasian Magpie",
        count: 12, latin: "Pica pica", audio: "sounds/magpie.mp3",

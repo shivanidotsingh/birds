@@ -5,7 +5,7 @@
     let birds = [
       { name: "Blue Tit",
        count: 16, latin: "Cyanistes caeruleus", audio: "sounds/bluetit.mp3",
-       notes: "two distinct types of whistles - shrill and low / entry also includes count of great tits (Parus major)", image: "img/bluetit.png" 
+       notes: "two distinct types of whistles - shrill and low / entry also includes sightings of great tits (Parus major)", image: "img/bluetit.png" 
       },
       { name: "Blackbird",
        count: 10, latin: "Turdus merula", audio: "sounds/blackbird.mp3",
@@ -28,12 +28,12 @@
        notes: "irridiscent / was common in san fransisco too", image: "img/starling.png" 
       },
       { name: "Nuthatch",
-       count: 2, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
+       count: 3, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
        notes: "creeps down trees headfirst", image: "img/nuthatch.png" 
       },
         
       { name: "Eurasian Jay",
-       count: 2, latin: "Garrulus glandarius", audio: "sounds/jay.mp3",
+       count: 3, latin: "Garrulus glandarius", audio: "sounds/jay.mp3",
        notes: "colorful and large / often in pairs / loud", image: "img/jay.png" 
       },
       { name: "Greenfinch",
@@ -75,11 +75,11 @@
       },
       { name: "Great Spotted Woodpecker",
        count: 1, latin: "Dendrocopos major", audio: "sounds/spottedwoodie.mp3",
-       notes: "shy / spotted once so far / textbook woodpecker", image: "img/spottedwoodie.png"
+       notes: "striking, textbook image of a woodpecker", image: "img/spottedwoodie.png"
       },
-      { name: "Three-toed Woodpecker",
+      { name: "Eurasian three-toed woodpecker",
        count: 1, latin: "Picoides tridactylus", audio: "sounds/toedwoodie.mp3",
-       notes: "more common woodpecker / camouflages easily", image: "https://images.unsplash.com/photo-1742849249251-f49a92ad5aef?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+       notes: "shy, speckled, pretty", image: "https://images.unsplash.com/photo-1742849249251-f49a92ad5aef?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }
     ];
 

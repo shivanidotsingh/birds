@@ -53,7 +53,7 @@
        notes: "looks like a red-breasted flycatcher", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
-       count: 4, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",
+       count: 9, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",
        notes: "urban regular / low flying / prefers to walk / bulky", image: "img/woodpigeon.png"
       },
         { name: "Eurasian Tree Sparrow",

@@ -49,7 +49,7 @@
        notes: "colorful", image: "img/goldfinch.png"
       },
       { name: "European Robin",
-       count: 1, latin: "Erithacus rubecula", audio: "sounds/robin.wav",
+       count: 2, latin: "Erithacus rubecula", audio: "sounds/robin.wav",
        notes: "looks like a red-breasted flycatcher", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",
@@ -74,7 +74,7 @@
        notes: "distinct laughing call", image: "img/greenwoodie.png"
       },
       { name: "Great Spotted Woodpecker",
-       count: 1, latin: "Dendrocopos major", audio: "sounds/spottedwoodie.mp3",
+       count: 3, latin: "Dendrocopos major", audio: "sounds/spottedwoodie.mp3",
        notes: "striking, textbook image of a woodpecker", image: "img/spottedwoodie.png"
       },
       { name: "Eurasian three-toed woodpecker",

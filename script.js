@@ -49,7 +49,7 @@
        notes: "colorful", image: "img/goldfinch.png"
       },
       { name: "European Robin",
-       count: 2, latin: "Erithacus rubecula", audio: "sounds/robin.wav",
+       count: 3, latin: "Erithacus rubecula", audio: "sounds/robin.wav",
        notes: "looks like a red-breasted flycatcher", image: "img/robin.png"
       },
       { name: "Common Woodpigeon",

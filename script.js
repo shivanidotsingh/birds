@@ -58,7 +58,7 @@
       },
         { name: "Eurasian Tree Sparrow",
        count: 4, latin: "Passer montanus", audio: "sounds/sparrow.mp3",
-       notes: "may have been a house sparrow", image: "img/sparrow.png" 
+       notes: "includes sightings of house sparrows, male and female", image: "img/sparrow.png" 
       },
         { name: "Hooded Crow",
        count: 4, latin: "Corvus cornix", audio: "sounds/crow.mp3",
@@ -79,7 +79,7 @@
       },
       { name: "Eurasian three-toed woodpecker",
        count: 1, latin: "Picoides tridactylus", audio: "sounds/toedwoodie.mp3",
-       notes: "shy, speckled, pretty", image: "https://images.unsplash.com/photo-1742849249251-f49a92ad5aef?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+       notes: "shy, speckled, pretty", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Three-toed_Woodpecker_-_Finlandia_0005_%283%29.jpg/500px-Three-toed_Woodpecker_-_Finlandia_0005_%283%29.jpg"
       }
     ];
 

@@ -8,7 +8,7 @@
        notes: "two distinct types of whistles - shrill and low / entry also includes sightings of great tits (Parus major)", image: "img/bluetit.png" 
       },
       { name: "Blackbird",
-       count: 10, latin: "Turdus merula", audio: "sounds/blackbird.mp3",
+       count: 12, latin: "Turdus merula", audio: "sounds/blackbird.mp3",
        notes: "female is brownish / national bird of stockholm / melodious", image: "img/blackbird.png" 
       },
       { name: "Fieldfare",
@@ -33,7 +33,7 @@
       },
         
       { name: "Eurasian Jay",
-       count: 3, latin: "Garrulus glandarius", audio: "sounds/jay.mp3",
+       count: 4, latin: "Garrulus glandarius", audio: "sounds/jay.mp3",
        notes: "colorful and large / often in pairs / loud", image: "img/jay.png" 
       },
       { name: "Greenfinch",

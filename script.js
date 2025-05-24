@@ -52,10 +52,7 @@
        count: 3, latin: "Erithacus rubecula", audio: "sounds/robin.wav",
        notes: "looks like a red-breasted flycatcher", image: "img/robin.png"
       },
-      { name: "Common Woodpigeon",
-       count: 8, latin: "Columba palumbus", audio: "sounds/pigeon.mp3",
-       notes: "urban regular / low flying / prefers to walk / bulky", image: "img/woodpigeon.png"
-      },
+   
         { name: "Eurasian Tree Sparrow",
        count: 4, latin: "Passer montanus", audio: "sounds/sparrow.mp3",
        notes: "includes sightings of house sparrows, male and female", image: "img/sparrow.png" 

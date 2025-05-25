@@ -4,6 +4,7 @@
       padding: 1rem;
       font-family: Helvetica, sans-serif;
       background: #EFE8D8;
+      min-height: 100vh;
     }
     h1 {
       text-align: left;
@@ -16,7 +17,7 @@
     #bird-container {
       position: relative;
       width: 100vw;
-      height: calc(100vh - 80px);
+      height: calc(100vh - 100px - 1rem - 50px); 
     }
     .bird-circle {
       position: absolute;

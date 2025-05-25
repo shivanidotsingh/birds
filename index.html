@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1>shivi's birding notebook. <a href="#" onclick="location.reload(); return false;"> 🔄 </a> <br>
-    <font style="font-weight: normal;">circle radius is vaguely indicative of frequency of sighting (excluding pigeons out of spite) // spring season 2025</font></h1>
+    <font style="font-weight: normal;">circle radius is vaguely indicative of frequency of sighting // spring season 2025</font></h1>
   <div id="bird-container"></div>
 
   <div id="modal" class="modal" style="display: none;">
@@ -17,9 +17,14 @@
       <h2 id="modal-name"></h2><h2 id="modal-latin"></h2>
       <p id="modal-notes"></p>
       <audio controls id="modal-audio"></audio>
-      <button class="increment-button" onclick="incrementCount()">👁️</button>
+      <button class="increment-button" onclick="incrementCount()"> + </button>
     </div>
   </div>
+
+  <footer class="main-footer">
+    <p>Pigeons have been excluded out of spite.</p>
+  </footer>
+
 <script src="script.js"></script>
 </body>
 </html>

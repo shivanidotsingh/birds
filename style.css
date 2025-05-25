@@ -141,3 +141,14 @@
       width: 100%;
       margin-top: 1rem;
     }
+
+
+.main-footer {
+  margin-top: 50px;   /* Keep space above the footer */
+  padding: 10px;      /* Keep padding */
+  font-size: 0.8em;   /* Keep tiny font size - adjust as needed */
+  opacity: 0.5;       /* 50% opacity */
+  padding-left: 1rem; /* Adjust to match your h1's padding */
+  text-align: left; /* Explicitly set to left, although often default */
+}
+

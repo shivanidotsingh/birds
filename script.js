@@ -70,6 +70,10 @@
        count: 1, latin: "Picus viridis", audio: "sounds/greenwoodie.mp3",
        notes: "distinct laughing call", image: "img/greenwoodie.png"
       },
+        { name: "Common redstart",
+       count: 1, latin: "Phoenicurus phoenicurus", audio: "sounds/redstart.mp3",
+       notes: "looks a bit like a robin, identifiable by coloured tail", image: "https://base-prod.rspb-prod.magnolia-platform.com/dam/jcr:401015e4-a624-43a7-8e40-164419b4837f/redstart-male.jpg"
+      },
       { name: "Great Spotted Woodpecker",
        count: 3, latin: "Dendrocopos major", audio: "sounds/spottedwoodie.mp3",
        notes: "striking, textbook image of a woodpecker", image: "img/spottedwoodie.png"

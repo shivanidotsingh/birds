@@ -72,7 +72,7 @@
       },
         { name: "Common redstart",
        count: 1, latin: "Phoenicurus phoenicurus", audio: "sounds/redstart.mp3",
-       notes: "looks a bit like a robin, identifiable by coloured tail", image: "https://base-prod.rspb-prod.magnolia-platform.com/dam/jcr:401015e4-a624-43a7-8e40-164419b4837f/redstart-male.jpg"
+       notes: "looks a bit like a robin, identifiable by coloured tail", image: "img/redstart.png"
       },
       { name: "Great Spotted Woodpecker",
        count: 3, latin: "Dendrocopos major", audio: "sounds/spottedwoodie.mp3",
@@ -80,7 +80,7 @@
       },
       { name: "Eurasian three-toed woodpecker",
        count: 1, latin: "Picoides tridactylus", audio: "sounds/toedwoodie.mp3",
-       notes: "shy, speckled, pretty", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Three-toed_Woodpecker_-_Finlandia_0005_%283%29.jpg/500px-Three-toed_Woodpecker_-_Finlandia_0005_%283%29.jpg"
+       notes: "shy, speckled, pretty", image: "img/3toed.png"
       }
     ];
 

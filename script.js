@@ -23,6 +23,10 @@
        count: 9, latin: "Larinae", audio: "sounds/gull.mp3",
        notes: "higher flying large bullies", image: "img/seagull.png" 
       },
+      { name: "Eurasian Nuthatch",
+       count: 4, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
+       notes: "sometimes they sit upside down on a branch, or moving downward", image: "img/nuthhatch.png" 
+      },
       { name: "Starling",
        count: 4, latin: "Sturnus vulgaris", audio: "sounds/starling.mp3",
        notes: "irridiscent / was common in san fransisco too", image: "img/starling.png" 

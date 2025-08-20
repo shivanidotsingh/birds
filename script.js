@@ -27,13 +27,10 @@
        count: 4, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
        notes: "moves downward on a tree, or sits upside down on a branch", image: "img/nuthatch.png" 
       },
+        
       { name: "Starling",
        count: 4, latin: "Sturnus vulgaris", audio: "sounds/starling.mp3",
        notes: "irridiscent / was common in san fransisco too", image: "img/starling.png" 
-      },
-      { name: "Nuthatch",
-       count: 3, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
-       notes: "creeps down trees headfirst", image: "img/nuthatch.png" 
       },
         
       { name: "Eurasian Jay",

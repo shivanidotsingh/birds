@@ -25,7 +25,7 @@
       },
       { name: "Eurasian Nuthatch",
        count: 4, latin: "Sitta europaea", audio: "sounds/nuthatch.mp3",
-       notes: "moves downward on a tree, or sits upside down on a branch", image: "img/nuthhatch.png" 
+       notes: "moves downward on a tree, or sits upside down on a branch", image: "img/nuthatch.png" 
       },
       { name: "Starling",
        count: 4, latin: "Sturnus vulgaris", audio: "sounds/starling.mp3",
@@ -67,7 +67,7 @@
       },
         { name: "White Wagtail",
        count: 4, latin: "Motacilla alba", audio: "sounds/wagtail.mp3",
-       notes: "comically swift walker", image: "img/wagtail.png"
+       notes: "comically swift walker / wags tail up and down, tapping the ground", image: "img/wagtail.png"
       },
         
       { name: "European Green Woodpecker",
